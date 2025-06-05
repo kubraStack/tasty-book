@@ -1,0 +1,25 @@
+.header{
+    background-color: #2f6131;
+    color: white;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-title{
+    margin: 0;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.nav-link{
+    color: white;
+    text-decoration: none ;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.nav-link:hover{
+    color: #c8e6c9;
+}
