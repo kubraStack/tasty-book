@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import {db} from '../firebase'
 // Firebase Firestore'dan veri çekmek için gerekli fonksiyonlar
 import {
@@ -11,7 +10,7 @@ import {
   doc, // Belirli bir döküman referansı oluşturur
   query, // Sorgu oluşturur
   where, // Sorgu koşulu ekler
-  QuerySnapshot // Sorgu sonuçlarını temsil eder
+//   QuerySnapshot // Sorgu sonuçlarını temsil eder
 } from 'firebase/firestore';
 
 import type { Recipe } from '../types';
